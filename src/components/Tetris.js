@@ -34,7 +34,7 @@ const Tetris = () => {
 		 </aside>
 
 
-		</aside>
+		
 
 
 		</div>
