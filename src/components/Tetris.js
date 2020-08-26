@@ -122,7 +122,7 @@ const Tetris = () => {
 
         )}
 
-        <StartButton onClick={startGame} />
+        <StartButton callback={startGame} />
         
 
 
