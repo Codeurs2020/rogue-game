@@ -1,6 +1,7 @@
 # Rogue Tetris Game
 
-## 
+#### Project Can be found in here :
+ **[Live version](https://rogue-game.web.app)**
 
 * NOTES :
 
@@ -20,7 +21,8 @@
 	⌨️  drop with useInterval
 	⌨️  useGameStatus and React.memo
 
-	⌨️  
+	⌨️ yarn start ;
+    ⌨️ npm i styled-components ;
 
 
 

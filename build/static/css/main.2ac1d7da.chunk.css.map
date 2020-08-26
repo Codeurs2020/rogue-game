@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,KAEC,QAED,CAEA,WAEC,mBAAoB,CAEpB,+DAGD","file":"main.2ac1d7da.chunk.css","sourcesContent":["body {\n\n\tmargin: 0;\n\n}\n\n@font-face {\n\n\tfont-family: 'Pixel';\n\n\tsrc: url('font/Pixel-LCD-7.woff') format('woff');\n\n\t\n}"]}
