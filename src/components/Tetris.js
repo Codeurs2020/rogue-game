@@ -13,6 +13,8 @@ import { StyledTetrisWrapper, StyledTetris } from './styles/StyledTetris';
 
 // custom hooks
 
+import { useInterval } from '../hooks/useInterval';
+
 import { usePlayer } from '../hooks/usePlayer';
 
 import { useStage } from '../hooks/useStage';
@@ -55,6 +57,8 @@ const Tetris = () => {
 
      setStage(createStage());
 
+     setDropTime(1000);
+
      resetPlayer();
 
      setGameOver(false);
@@ -94,7 +98,25 @@ const Tetris = () => {
 	}
 
 
+	const keyUp = ({ keyCode }) => {
+
+		if (!gameOver) {
+
+			if (keyCode === 40) {
+
+				setDropTime(1000);
+				
+
+
+			}
+		}
+	}
+
+
 	const dropPlayer = () => {
+
+		setDropTime(null);
+
 
 		drop();
 
@@ -128,6 +150,13 @@ const Tetris = () => {
 
 		
 	}
+
+	useInterval(() => {
+
+		drop();
+
+
+	}, dropTime)
 
 
 	return (
