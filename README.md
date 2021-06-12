@@ -2,6 +2,14 @@
 
 #### Project Can be found in here :
  **[Live version](https://rogue-game.web.app)**
+ 
+ 
+<p align="center">
+	
+<img src="https://user-images.githubusercontent.com/57604500/121777532-f1f59780-cb92-11eb-9e20-514fef7beeb6.png" width=956>
+<br />
+<h3 align="center">Rogue Tetris Game</h3>
+</p>
 
 * NOTES :
 
